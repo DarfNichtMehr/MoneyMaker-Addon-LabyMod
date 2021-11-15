@@ -2,7 +2,13 @@ name: Release
 
 on:
   push:
-    tags: 'v*-laby'
+    branches:
+      - main
+      - develop
+    pull_request:
+      branches:
+        - main
+        - develop
 
 jobs:
   build:
