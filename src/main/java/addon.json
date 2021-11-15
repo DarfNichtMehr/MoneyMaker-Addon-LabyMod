@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "MoneyMaker Addon",
+  "mainClass": "de.darfnichtmehr.Moneymaker",
+  "description": "Addon for GommeHD.net's \"MoneyMaker\". Doesn't work if your language (/language) isn't set to german. Bugreport? Suggestion? DM me on Discord: Ben.#4589",
+  "version": 1,
+  "author": "DarfNichtMehr",
+  "category": "3",
+  "icon": "https://i.imgur.com/3eV4AH7.png"
+}
