@@ -81,6 +81,19 @@ processResources
     }
 }
 
+task downloadAPI(type: Download) {
+    group("labymod")
+
+    File libraryDirectory = new File("libs/")
+
+    if (!libraryDirectory.exists()) {
+        libraryDirectory.mkdirs()
+    }
+
+    src "https://dl.labymod.net/latest/api/files/lm_api_mc1.8.9.jar"
+    dest 'libs/'
+}
+
 reobf {
     jar {
         useNotchSrg()
